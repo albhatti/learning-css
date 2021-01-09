@@ -1,0 +1,24 @@
+
+
+/* below is a css code in the head section of HTML, the 1st css works but the 2nd does not*/
+            
+            p.samplep4 span::first-line {
+                font-size: 100px;
+            }
+
+            p.samplep4::first-line {
+                font-weight: bold;
+            }
+
+/* below is the HTML code*/
+
+<p class="samplep4">
+            <span class="underline">Sample paragraph 4.</span>
+            <b> Lorem</b> ipsum dolor sit amet
+            consectetur adipisicing elit. Esse dolor autem temporibus provident tempore molestias! Iste illum perferendis a, tempore veritatis dolores
+            repellendus autem, voluptates obcaecati, magnam laboriosam tenetur incidunt.Quaerat quis quam saepe illum
+            odio nobis. Dolore doloremque natus nam iste porro, temporibus tenetur reiciendis aliquid itaque nulla aut
+            sunt ipsum veritatis vitae, enim possimus, magni maxime quidem omnis?
+        </p>
+        
+        <!--Can anyone help in pointing out where and what am i doing wrong here?-->
